@@ -1,3 +1,8 @@
+%% CRC_Checksum
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clear all
 close all
 clc
@@ -54,3 +59,5 @@ h = legend('Actual BER','CRC Detected BER',...
     'Location','NorthWest');
 set(h,'FontSize',16);
 hold off
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

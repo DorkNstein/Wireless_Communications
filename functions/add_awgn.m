@@ -1,4 +1,7 @@
-% Add additive white gaussian noise; Also, choose the scheme to used (1|2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ADDS ADDITIVE WHITE GAUSSIAN NOISE
+% CHOOSE A SCHEME (1|2)
 
 function [Rpbits] = add_awgn(pbits, sigma, scheme)
 %% SCHEME 1 : Defining pbits from -1 to +1 instead of 0 to 1
@@ -24,3 +27,5 @@ if(scheme == 2)
 end
 
 end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

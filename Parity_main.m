@@ -1,3 +1,8 @@
+%% PARITY MAIN PROGRAM
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clear all
 close all
 clc
@@ -63,7 +68,6 @@ h = legend('Actual BER','Parity estimated BER','Parity undetected',...
 set(h,'FontSize',16);
 hold off
 
-
 figure(2)
 plot(sigma,BER_actual_w,'b','LineWidth',2);
 hold on
@@ -78,3 +82,4 @@ h = legend('Actual BER (Symbol)','Parity estimated BER',...
 set(h,'FontSize',16);
 hold off
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

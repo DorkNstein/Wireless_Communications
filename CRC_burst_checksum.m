@@ -1,3 +1,8 @@
+%% CRC_Checksum_burst_noise
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clear all
 close all
 clc
@@ -57,3 +62,5 @@ h = legend('Actual BER','CRC Detected BER',...
     'Location','NorthWest');
 set(h,'FontSize',16);
 hold off
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
